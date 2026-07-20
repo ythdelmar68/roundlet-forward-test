@@ -8,7 +8,7 @@
 # roundlet:repository-authority
 roundlet:
   enabled: true
-  allow_mark_pr_ready: false
+  allow_mark_pr_ready: true
   allow_merge_pr: true
   allow_close_leaf_issue: true
   allow_delete_remote_branch: true
