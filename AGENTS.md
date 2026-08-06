@@ -1,6 +1,9 @@
 # Controlled Roundlet target policy
 
-- This private repository exists only for bounded Roundlet forward testing.
+- This public, disposable repository exists only for bounded Roundlet forward
+  testing. Public visibility supports credential-free GitHub Actions; it grants
+  no additional mutation authority and must never expose credentials or raw run
+  artifacts.
 - Preserve unrelated and unique work. Never force-push, reset, rebase, bypass protection, create releases or tags, or mutate another repository.
 - Implementation issues may add or update only files under `fixtures/` unless an allowlisted owner comment explicitly changes scope.
 - Use isolated `codex/` branches, reviewed pull requests, merge commits, and exact issue-closing references.
